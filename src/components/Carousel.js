@@ -9,8 +9,8 @@ function Carousel() {
         <div className="carousel-item active">
           <img src={img1} className="d-block img-fluid animated-image" alt="Image 1" style={{ width: '100%', height: '1000px' }} />
           <div className="carousel-caption d-none d-md-block">
-            <h1 style={{ paddingLeft: '290px' }}>Welcome to Elite Academy</h1>
-            <p style={{ paddingLeft: '290px' }}>We offer a wide range of courses to help you succeed.</p>
+            <h1 style={{ paddingLeft: '290px', color: 'mediumblue' }}>Welcome to Elite Academy</h1>
+            <p style={{ paddingLeft: '290px', color: 'crimson' }}>We offer a wide range of courses to help you succeed.</p>
           </div>
         </div>
         <div className="carousel-item">

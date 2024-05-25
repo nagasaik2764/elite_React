@@ -4,7 +4,7 @@ import aboutImage from '../assets/BookAspire.png';
 
 function About() {
   return (
-    <section>
+    <section id="about">
       <div className="container">
         <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">About</h2>
         <div className="divider-custom">
