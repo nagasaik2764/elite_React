@@ -1,11 +1,10 @@
 import React from 'react';
-import book1 from '../assets/book1.jpg';
-import book2 from '../assets/book2.jpg';
-import book3 from '../assets/book3.jpg';
-import book4 from '../assets/book4.jpg';
-import book5 from '../assets/book5.jpg';
-import book6 from '../assets/book6.jpg';
-import book7 from '../assets/book7.jpg';
+import IIT from '../assets/IIT.jpeg';
+import Biology from '../assets/Biology.jpeg';
+import Physics from '../assets/Physics.jpeg';
+import Chemistry from '../assets/Chemistry.jpeg';
+import Maths from '../assets/Maths.jpeg';
+
 
 function PopularBooks() {
   return (
@@ -18,13 +17,11 @@ function PopularBooks() {
       </div>
       <div className="marquee-container">
         <div className="marquee-content">
-          <img src={book1} alt="Book 1" className="animated-image" />
-          <img src={book2} alt="Book 2" className="animated-image" />
-          <img src={book3} alt="Book 3" className="animated-image" />
-          <img src={book4} alt="Book 4" className="animated-image" />
-          <img src={book5} alt="Book 5" className="animated-image" />
-          <img src={book6} alt="Book 6" className="animated-image" />
-          <img src={book7} alt="Book 7" className="animated-image" />
+          <img src={IIT} alt="IIT" className="animated-image" />
+          <img src={Biology} alt="Biology" className="animated-image" />
+          <img src={Physics} alt="Physics" className="animated-image" />
+          <img src={Chemistry} alt="Chemistry" className="animated-image" />
+          <img src={Maths} alt="Maths" className="animated-image" />
         </div>
       </div>
     </section>

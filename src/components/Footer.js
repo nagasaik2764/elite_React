@@ -8,9 +8,9 @@ function Footer() {
           <div className="col-lg-4 mb-5 mb-lg-0">
             <h4 className="text-uppercase mb-4">Location</h4>
             <p className="lead mb-0">
-              2215 John Daniel Drive
+            Road No.3, KPHB Colony, Kukatpally,
               <br />
-              Clark, MO 65243
+              Hyderabad, Telangana - 500072, INDIA.
             </p>
           </div>
           <div className="col-lg-4 mb-5 mb-lg-0">
@@ -44,10 +44,9 @@ function Footer() {
             </ul>
           </div>
           <div className="col-lg-4">
-            <h4 className="text-uppercase mb-4">About Freelancer</h4>
+            <h4 className="text-uppercase mb-4">About Elite Academy</h4>
             <p className="lead mb-0">
-              Freelance is a free to use, MIT licensed Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.
+            Elite Academy is a place where you can find all the material for all classes
             </p>
           </div>
         </div>
