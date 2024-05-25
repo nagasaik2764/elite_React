@@ -1,5 +1,6 @@
 import React from 'react';
-import aboutImage from '../assets/show-stacks-of-printed-books-being-distributed--wi (1).png';
+import aboutImage from '../assets/BookAspire.png';
+
 
 function About() {
   return (
