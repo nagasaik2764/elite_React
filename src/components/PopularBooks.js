@@ -4,28 +4,30 @@ import Biology from '../assets/Biology.jpeg';
 import Physics from '../assets/Physics.jpeg';
 import Chemistry from '../assets/Chemistry.jpeg';
 import Maths from '../assets/Maths.jpeg';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function PopularBooks() {
-  return (
-    <section className="popular-books">
-      <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0 animated">Popular Books</h2>
-      <div className="divider-custom animated fade-up">
-        <div className="divider-custom-line"></div>
-        <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
-        <div className="divider-custom-line"></div>
-      </div>
-      <div className="marquee-container">
-        <div className="marquee-content">
-          <img src={IIT} alt="IIT" className="animated-image" />
-          <img src={Biology} alt="Biology" className="animated-image" />
-          <img src={Physics} alt="Physics" className="animated-image" />
-          <img src={Chemistry} alt="Chemistry" className="animated-image" />
-          <img src={Maths} alt="Maths" className="animated-image" />
-        </div>
-      </div>
-    </section>
-  );
+    const books = [IIT, Biology, Physics, Chemistry, Maths];
+    const repeatedBooks = [...books, ...books, ...books,...books]; // Repeat the array three times
+    return (
+        <ScrollAnimation animateIn="animate__fadeIn" duration={2} delay={500} initiallyVisible={false}>
+        <section className="popular-books-section">
+            <h2 className="popular-books-heading text-center text-uppercase text-secondary mb-0 animated">Popular Books</h2>
+            <div className="popular-books-divider animated fade-up">
+                <div className="divider-line"></div>
+                <div className="divider-icon"><i className="fas fa-star"></i></div>
+                <div className="divider-line"></div>
+            </div>
+            <div className="popular-books-marquee-container">
+                <div className="popular-books-marquee-content">
+                    {repeatedBooks.map((book, index) => (
+                        <img key={index} src={book} alt={`Book ${index + 1}`} className="popular-books-image" />
+                    ))}
+                </div>
+            </div>
+        </section>
+        </ScrollAnimation>
+    );
 }
 
 export default PopularBooks;

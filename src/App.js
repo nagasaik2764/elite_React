@@ -6,6 +6,7 @@ import About from './components/About';
 import Programmes from './components/Programmes';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import 'animate.css/animate.min.css';
 import './App.css'; // Add your custom CSS here
 
 function App() {
