@@ -8,7 +8,7 @@ function About() {
     const handleScroll = () => {
       const section = document.querySelector('.about-section');
       const rect = section.getBoundingClientRect();
-      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
         paragraphs.current.forEach((p, index) => {
           setTimeout(() => {
             p.classList.add('typing-animation');
@@ -23,7 +23,7 @@ function About() {
   }, []);
 
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <div className="container">
         <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">About</h2>
         <div className="divider-custom">

@@ -1,4 +1,5 @@
 import React from 'react';
+import mobileImg from '../assets/Phone.jpg';
 
 function Footer() {
   return (
@@ -11,6 +12,8 @@ function Footer() {
             Road No.3, KPHB Colony, Kukatpally,
               <br />
               Hyderabad, Telangana - 500072, INDIA.
+              <br />
+              <img src={mobileImg} alt='MobileImage' style={{ width: '40px', height: '30px' }}/>  : +91 7330643345
             </p>
           </div>
           <div className="col-lg-4 mb-5 mb-lg-0">

@@ -87,7 +87,6 @@ body {
   transform: scale(1.1); /* Scale up on hover */
 }
 
-
 .box {
     /*background-color: black;*/
     height: 100vh;
@@ -4182,6 +4181,14 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 375px) {
+  .navbar-toggler-icon {
+    background-image: url('../src//assets/3linesicon.png') !important; /* Update the path to your hamburger icon */
+    width: 30px; /* Adjust width if needed */
+    height: 30px; /* Adjust height if needed */
+    background-size: contain; /* Ensure the icon fits within the container */
+    background-repeat: no-repeat; /* Prevent the icon from repeating */
+    background-position: center; /* Center the icon within the container */
+}
   .navbar-brand {
     margin-left: 0px; /* Move the logo to the right */
 }
@@ -4232,6 +4239,14 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 576px) {
+  .navbar-toggler-icon {
+    background-image: url('../src//assets/3linesicon.png') !important; /* Update the path to your hamburger icon */
+    width: 30px; /* Adjust width if needed */
+    height: 30px; /* Adjust height if needed */
+    background-size: contain; /* Ensure the icon fits within the container */
+    background-repeat: no-repeat; /* Prevent the icon from repeating */
+    background-position: center; /* Center the icon within the container */
+}
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4323,7 +4338,17 @@ textarea.form-control-lg {
     animation: typing 2s steps(40, end) forwards, blink-caret .75s step-end infinite; /* Add animation when visible */
   }
 }
+
+
 @media (min-width: 768px) {
+  .navbar-toggler-icon {
+    background-image: url('../src//assets/3linesicon.png') !important; /* Update the path to your hamburger icon */
+    width: 30px; /* Adjust width if needed */
+    height: 30px; /* Adjust height if needed */
+    background-size: contain; /* Ensure the icon fits within the container */
+    background-repeat: no-repeat; /* Prevent the icon from repeating */
+    background-position: center; /* Center the icon within the container */
+}
   
   .navbar-brand {
     margin-left: 0px; /* Move the logo to the right */
@@ -4375,6 +4400,14 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 992px) {
+  .navbar-toggler-icon {
+    background-image: url('../src//assets/3linesicon.png') !important; /* Update the path to your hamburger icon */
+    width: 30px; /* Adjust width if needed */
+    height: 30px; /* Adjust height if needed */
+    background-size: contain; /* Ensure the icon fits within the container */
+    background-repeat: no-repeat; /* Prevent the icon from repeating */
+    background-position: center; /* Center the icon within the container */
+}
   .navbar-brand {
     margin-left: 0px; /* Move the logo to the right */
 }
@@ -4462,6 +4495,14 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 1200px) {
+  .navbar-toggler-icon {
+    background-image: url('../src//assets/3linesicon.png') !important; /* Update the path to your hamburger icon */
+    width: 30px; /* Adjust width if needed */
+    height: 30px; /* Adjust height if needed */
+    background-size: contain; /* Ensure the icon fits within the container */
+    background-repeat: no-repeat; /* Prevent the icon from repeating */
+    background-position: center; /* Center the icon within the container */
+}
   .navbar-expand-xl {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4509,6 +4550,14 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1400px) {
+  .navbar-toggler-icon {
+    background-image: url('../src//assets/3linesicon.png') !important; /* Update the path to your hamburger icon */
+    width: 30px; /* Adjust width if needed */
+    height: 30px; /* Adjust height if needed */
+    background-size: contain; /* Ensure the icon fits within the container */
+    background-repeat: no-repeat; /* Prevent the icon from repeating */
+    background-position: center; /* Center the icon within the container */
+}
   .navbar-expand-xxl {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4786,6 +4835,14 @@ textarea.form-control-lg {
   margin-bottom: var(--bs-card-group-margin);
 }
 @media (min-width: 576px) {
+  .navbar-toggler-icon {
+    background-image: url('../src//assets/3linesicon.png') !important; /* Update the path to your hamburger icon */
+    width: 30px; /* Adjust width if needed */
+    height: 30px; /* Adjust height if needed */
+    background-size: contain; /* Ensure the icon fits within the container */
+    background-repeat: no-repeat; /* Prevent the icon from repeating */
+    background-position: center; /* Center the icon within the container */
+}
   .card-group {
     display: flex;
     flex-flow: row wrap;
@@ -5432,6 +5489,14 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 992px) {
+  .navbar-toggler-icon {
+    background-image: url('../src//assets/3linesicon.png') !important; /* Update the path to your hamburger icon */
+    width: 30px; /* Adjust width if needed */
+    height: 30px; /* Adjust height if needed */
+    background-size: contain; /* Ensure the icon fits within the container */
+    background-repeat: no-repeat; /* Prevent the icon from repeating */
+    background-position: center; /* Center the icon within the container */
+}
   .list-group-horizontal-lg {
     flex-direction: row;
   }

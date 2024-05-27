@@ -19,19 +19,19 @@ function CustomCarousel() {
   };
 
   return (
-    <Carousel ref={carouselRef}>
+    <Carousel ref={carouselRef} id="home">
       <Carousel.Item>
         <img src={img1} className="d-block w-100 animated-image" alt="Image 1" />
-        <Carousel.Caption style={{ left: '20%', transform: 'translateX(-50%)' }}>       
-            <h1>Welcome to Elite Academy</h1>
-            <p>We offer a wide range of courses to help you succeed.</p>        
+        <Carousel.Caption style={{ left: '22%', transform: 'translateX(-50%)' }}>       
+            <h1 style={{color: 'mediumblue'}}>Welcome to Elite Academy</h1>
+            <p style={{color: 'crimson'}}>We offer a wide range of courses to help you succeed.</p>        
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={img2} className="d-block w-100 animated-image" alt="Image 2" />
         <Carousel.Caption>
-          <h3>Join Us Today</h3>
-          <p>Discover a world of opportunities.</p>
+          <h3 style={{color: 'mediumblue'}}>Join Us Today</h3>
+          <p style={{color: 'crimson'}}>Discover a world of opportunities.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
